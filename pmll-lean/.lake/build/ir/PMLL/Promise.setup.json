@@ -1,0 +1,8 @@
+{"plugins": [],
+ "package": "pmll",
+ "options": {},
+ "name": "PMLL.Promise",
+ "isModule": false,
+ "importArts":
+ {"PMLL": [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL.olean"]]},
+ "dynlibs": []}

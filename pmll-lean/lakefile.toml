@@ -1,0 +1,9 @@
+name = "pmll"
+version = "0.1.0"
+defaultTargets = ["PMLL", "Solve"]
+
+[[lean_lib]]
+name = "PMLL"
+
+[[lean_lib]]
+name = "Solve"

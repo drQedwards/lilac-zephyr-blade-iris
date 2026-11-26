@@ -1,0 +1,31 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["a784d012804f55a4.olean"],
+  "m": false,
+  "i": "4959718a38ecdf3b.ilean",
+  "c": "f645eef3f40f2775.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/workspace/pmll-lean/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.36.0/bin/lean /workspace/pmll-lean/PMLL/Retry.lean -o /workspace/pmll-lean/.lake/build/lib/lean/PMLL/Retry.olean -i /workspace/pmll-lean/.lake/build/lib/lean/PMLL/Retry.ilean -c /workspace/pmll-lean/.lake/build/ir/PMLL/Retry.c --setup /workspace/pmll-lean/.lake/build/ir/PMLL/Retry.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["deps",
+   [["pmll/PMLL:extraDep", [["@pmll:extraDep", "00000000000006bb"]]],
+    ["imports",
+     [["PMLL transitive imports (legacy)", "00000000000006bb"],
+      ["PMLL:importAllArts", "2d1f96340a914243"]]]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.36.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+   "bd5dd4b1191d6a49"],
+  ["/workspace/pmll-lean/PMLL/Retry.lean", "be2c99220fa712a6"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: PMLL.Retry", "74c59bd0998af85e"],
+  ["Package.id?: (some pmll)", "dc7c91a006731ec7"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "b0bc67fb935ec209"}

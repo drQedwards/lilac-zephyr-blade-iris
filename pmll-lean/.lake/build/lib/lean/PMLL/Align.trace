@@ -1,0 +1,45 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["213688dcab97cbc6.olean"],
+  "m": false,
+  "i": "050cad29e92ad996.ilean",
+  "c": "eba295528e9a4aba.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/workspace/pmll-lean/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.36.0/bin/lean /workspace/pmll-lean/PMLL/Align.lean -o /workspace/pmll-lean/.lake/build/lib/lean/PMLL/Align.olean -i /workspace/pmll-lean/.lake/build/lib/lean/PMLL/Align.ilean -c /workspace/pmll-lean/.lake/build/ir/PMLL/Align.c --setup /workspace/pmll-lean/.lake/build/ir/PMLL/Align.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "PMLL/Align.lean:56:0: 12 PMLL dependencies:\n[PMLL.P_eq_NP,\n PMLL.P_ne_NP,\n PMLL.RiemannHypothesis,\n PMLL.peqnpClaim,\n PMLL.phpBranchCount,\n PMLL.Promise,\n PMLL.spinePromise,\n PMLL.spineChain,\n PMLL.Promise.ready,\n PMLL.developed_solver_off_spine,\n PMLL.growth_through_seven,\n PMLL.spine_promise_unknown]",
+   "level": "info"},
+  {"message":
+   "PMLL/Align.lean:58:0: 'PMLL.aligned_solution' depends on axioms: [propext,\n Classical.choice,\n Quot.sound,\n finite_recurrence._native.native_decide.ax_1_1,\n link_census._native.native_decide.ax_1_1,\n spine_promise_unknown._native.native_decide.ax_1_1]",
+   "level": "info"},
+  {"message":
+   "PMLL/Align.lean:67:0: 12 PMLL dependencies:\n[PMLL.P_eq_NP,\n PMLL.P_ne_NP,\n PMLL.RiemannHypothesis,\n PMLL.peqnpClaim,\n PMLL.phpBranchCount,\n PMLL.Promise,\n PMLL.spinePromise,\n PMLL.spineChain,\n PMLL.Promise.ready,\n PMLL.developed_solver_off_spine,\n PMLL.growth_through_seven,\n PMLL.spine_promise_unknown]",
+   "level": "info"},
+  {"message":
+   "PMLL/Align.lean:69:0: 'PMLL.aligned_solution' depends on axioms: [propext,\n Classical.choice,\n Quot.sound,\n finite_recurrence._native.native_decide.ax_1_1,\n link_census._native.native_decide.ax_1_1,\n spine_promise_unknown._native.native_decide.ax_1_1]",
+   "level": "info"}],
+ "inputs":
+ [["deps",
+   [["pmll/PMLL:extraDep", [["@pmll:extraDep", "00000000000006bb"]]],
+    ["imports",
+     [["PMLL.Continue transitive imports (legacy)", "f9b29e498ffe7fc0"],
+      ["PMLL.Continue:importAllArts", "e22569a54edee1fa"],
+      ["PMLL.Spine transitive imports (legacy)", "ccdc73eb07e25014"],
+      ["PMLL.Spine:importAllArts", "23f0ec036ef91851"]]]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.36.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+   "bd5dd4b1191d6a49"],
+  ["/workspace/pmll-lean/PMLL/Align.lean", "62cdfa48235891fc"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: PMLL.Align", "b02c3e3b677f0d2e"],
+  ["Package.id?: (some pmll)", "dc7c91a006731ec7"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "18f36307fdef1637"}

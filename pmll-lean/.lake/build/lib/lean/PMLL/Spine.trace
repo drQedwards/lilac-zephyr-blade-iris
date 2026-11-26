@@ -1,0 +1,31 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["ccdcf65039b591df.olean"],
+  "m": false,
+  "i": "33840cce6c06737d.ilean",
+  "c": "2bbc9fda45af2dcf.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/workspace/pmll-lean/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.36.0/bin/lean /workspace/pmll-lean/PMLL/Spine.lean -o /workspace/pmll-lean/.lake/build/lib/lean/PMLL/Spine.olean -i /workspace/pmll-lean/.lake/build/lib/lean/PMLL/Spine.ilean -c /workspace/pmll-lean/.lake/build/ir/PMLL/Spine.c --setup /workspace/pmll-lean/.lake/build/ir/PMLL/Spine.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["deps",
+   [["pmll/PMLL:extraDep", [["@pmll:extraDep", "00000000000006bb"]]],
+    ["imports",
+     [["PMLL.Promise transitive imports (legacy)", "d58786072110e079"],
+      ["PMLL.Promise:importAllArts", "d8b0943027a65f22"]]]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.36.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+   "bd5dd4b1191d6a49"],
+  ["/workspace/pmll-lean/PMLL/Spine.lean", "ff195f1bbafdbfab"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: PMLL.Spine", "0623fc978f43fcae"],
+  ["Package.id?: (some pmll)", "dc7c91a006731ec7"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "0ad24c58bf0406a5"}

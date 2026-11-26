@@ -1,0 +1,10 @@
+{"plugins": [],
+ "package": "pmll",
+ "options": {},
+ "name": "PMLL.Spine",
+ "isModule": false,
+ "importArts":
+ {"PMLL.Promise":
+  [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL/Promise.olean"]],
+  "PMLL": [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL.olean"]]},
+ "dynlibs": []}

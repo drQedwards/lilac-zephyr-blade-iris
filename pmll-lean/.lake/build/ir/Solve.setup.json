@@ -1,0 +1,20 @@
+{"plugins": [],
+ "package": "pmll",
+ "options": {},
+ "name": "Solve",
+ "isModule": false,
+ "importArts":
+ {"PMLL.Spine":
+  [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL/Spine.olean"]],
+  "PMLL.Retry":
+  [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL/Retry.olean"]],
+  "PMLL.Promise":
+  [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL/Promise.olean"]],
+  "PMLL.Develop":
+  [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL/Develop.olean"]],
+  "PMLL.Continue":
+  [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL/Continue.olean"]],
+  "PMLL.Align":
+  [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL/Align.olean"]],
+  "PMLL": [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL.olean"]]},
+ "dynlibs": []}

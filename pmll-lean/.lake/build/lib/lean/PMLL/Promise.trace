@@ -1,0 +1,31 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["2e949894700a285e.olean"],
+  "m": false,
+  "i": "77627eb27a37d786.ilean",
+  "c": "2a8babc80bf0eab9.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/workspace/pmll-lean/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.36.0/bin/lean /workspace/pmll-lean/PMLL/Promise.lean -o /workspace/pmll-lean/.lake/build/lib/lean/PMLL/Promise.olean -i /workspace/pmll-lean/.lake/build/lib/lean/PMLL/Promise.ilean -c /workspace/pmll-lean/.lake/build/ir/PMLL/Promise.c --setup /workspace/pmll-lean/.lake/build/ir/PMLL/Promise.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["deps",
+   [["pmll/PMLL:extraDep", [["@pmll:extraDep", "00000000000006bb"]]],
+    ["imports",
+     [["PMLL transitive imports (legacy)", "00000000000006bb"],
+      ["PMLL:importAllArts", "2d1f96340a914243"]]]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.36.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+   "bd5dd4b1191d6a49"],
+  ["/workspace/pmll-lean/PMLL/Promise.lean", "502d43f3f9503fac"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: PMLL.Promise", "a4271234e36f6f2f"],
+  ["Package.id?: (some pmll)", "dc7c91a006731ec7"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "4a138a456ddc4e85"}

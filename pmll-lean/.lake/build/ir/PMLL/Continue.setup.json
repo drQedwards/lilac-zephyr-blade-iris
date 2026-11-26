@@ -1,0 +1,16 @@
+{"plugins": [],
+ "package": "pmll",
+ "options": {},
+ "name": "PMLL.Continue",
+ "isModule": false,
+ "importArts":
+ {"PMLL.Spine":
+  [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL/Spine.olean"]],
+  "PMLL.Retry":
+  [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL/Retry.olean"]],
+  "PMLL.Promise":
+  [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL/Promise.olean"]],
+  "PMLL.Develop":
+  [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL/Develop.olean"]],
+  "PMLL": [["/workspace/pmll-lean/.lake/build/lib/lean/PMLL.olean"]]},
+ "dynlibs": []}

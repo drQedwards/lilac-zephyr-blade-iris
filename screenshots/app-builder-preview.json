@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Q",
+      "hasCanvas": false,
+      "bodyTextLen": 1072,
+      "bodyTextHash": "bf37e1b181a42d49a29e3e2fc3b410e7dba21d450696b58f9da924074f4fca41",
+      "bodyTextPrefix": "Q Settlement chain Mint Wallet Swap Ledger Stake q-1 Block 18,43",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Q",
+      "hasCanvas": false,
+      "bodyTextLen": 1032,
+      "bodyTextHash": "6b346a0666c74eccb6ac8a5ac6c495a47eb084f02db2a9d3772a0e21aaa54023",
+      "bodyTextPrefix": "Block 18,439 · Quorum · Live 4.0060.00% 2,505.00 Q Spot · 1 Q 4.",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

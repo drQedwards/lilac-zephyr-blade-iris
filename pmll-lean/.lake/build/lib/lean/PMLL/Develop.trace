@@ -1,0 +1,33 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["d4a81b41f6c8b003.olean"],
+  "m": false,
+  "i": "8bdbe55d84b3788e.ilean",
+  "c": "2ded256f579e8d7a.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/workspace/pmll-lean/.lake/build/lib/lean /root/.elan/toolchains/leanprover--lean4---v4.36.0/bin/lean /workspace/pmll-lean/PMLL/Develop.lean -o /workspace/pmll-lean/.lake/build/lib/lean/PMLL/Develop.olean -i /workspace/pmll-lean/.lake/build/lib/lean/PMLL/Develop.ilean -c /workspace/pmll-lean/.lake/build/ir/PMLL/Develop.c --setup /workspace/pmll-lean/.lake/build/ir/PMLL/Develop.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["deps",
+   [["pmll/PMLL:extraDep", [["@pmll:extraDep", "00000000000006bb"]]],
+    ["imports",
+     [["PMLL.Retry transitive imports (legacy)", "d58786072110e079"],
+      ["PMLL.Retry:importAllArts", "03e61907d4fdfc78"],
+      ["PMLL.Spine transitive imports (legacy)", "ccdc73eb07e25014"],
+      ["PMLL.Spine:importAllArts", "23f0ec036ef91851"]]]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.36.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+   "bd5dd4b1191d6a49"],
+  ["/workspace/pmll-lean/PMLL/Develop.lean", "9e3e2884c66961a6"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: PMLL.Develop", "53080dc1d8407788"],
+  ["Package.id?: (some pmll)", "dc7c91a006731ec7"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "ccda6366cfea2c9d"}
